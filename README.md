@@ -9,6 +9,7 @@ A simple definition of a generic node
 Files to generate a library "node.a".
 
 Makefile included generates the library that you can include in your project.
+
 NB: This Makefile works only on Linux
 
 Using
