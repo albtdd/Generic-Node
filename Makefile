@@ -1,15 +1,8 @@
 #
-# Makefile
+# Makefile for Linux
 #
 # Alberto Todde <alberto.tdd@gmail.com>
 #
-
-OS := $(shell uname)
-ifeq ($(OS), Linux)
-    CLEAN = rm -f
-else # Windows
-    CLEAN = del
-endif
 
 CC = gcc
 
