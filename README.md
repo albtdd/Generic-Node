@@ -1,12 +1,12 @@
 # Node
 A simple generic node for list, stack, queue, tree, etc..
 
-Node
-=======
+Node + content (article)
+========================
 
-A simple definition of a generic node
+A simple definition of a generic node with a simple content
 
-Files to generate a library "node.a".
+Yo can generate the library "node.a".
 
 Makefile included generates the library that you can include in your project.
 
