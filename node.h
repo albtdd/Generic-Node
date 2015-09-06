@@ -31,12 +31,7 @@
 extern "C" {
 #endif
 
-#ifdef __unix__
-#include "../article/article.h"
-#else
-#include "..\article\article.h"
-#endif
-
+#include "article.h"
 #include <stdbool.h>
 
 
