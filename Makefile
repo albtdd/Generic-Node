@@ -12,7 +12,7 @@ RFLAGS = -DNDEBUG -O3 -funroll-loops
 
 LIBS =
 
-SOURCES = node.c
+SOURCES = node.c article.c
 
 OBJECTS = $(SOURCES:.c=.o)
 
